@@ -37,6 +37,6 @@ def test_handler_call():
 
     response['body'] = json.loads(response['body'])
 
-    assert isinstance(response["body"]["prediction"], float), "Prediction should be an integer"
+    assert isinstance(response["body"]["prediction"], int), "Prediction should be an integer"
     assert response["body"]["prediction"] > 0, "Prediction should be a non-negative integer"
     assert response["statusCode"] == 200, "Status code should be 200 OK"

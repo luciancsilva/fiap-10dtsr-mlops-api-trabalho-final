@@ -99,7 +99,7 @@ def prepare_payload(data: Dict[str, Any]) -> List[float]:
     return processed
 
 
-def write_real_data_to_s3(data: Dict[str, Any], prediction: float) -> None:
+def write_real_data_to_s3(data: Dict[str, Any], prediction: int) -> None:
     """
     Persiste o payload enriquecido em CSV no S3.
 

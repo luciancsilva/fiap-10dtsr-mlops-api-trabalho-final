@@ -1,0 +1,22 @@
+{
+  "data": {
+    "Age": 30,
+    "Annual_Income": 43391.96,
+    "Num_Bank_Accounts": 1,
+    "Num_Credit_Card": 5,
+    "Num_of_Delayed_Payment": 6,
+    "Credit_Utilization_Ratio": 29.112467941684688,
+    "Payment_of_Min_Amount": 0,
+    "Total_EMI_per_month": 0.0,
+    "Credit_History_Age_Formated": 284,
+    "Auto_Loan": 0,
+    "Credit-Builder_Loan": 0,
+    "Personal_Loan": 0,
+    "Home_Equity_Loan": 0,
+    "Mortgage_Loan": 0,
+    "Student_Loan": 0,
+    "Debt_Consolidation_Loan": 0,
+    "Payday_Loan": 0,
+    "Missed_Payment_Day": 1
+  }
+}
